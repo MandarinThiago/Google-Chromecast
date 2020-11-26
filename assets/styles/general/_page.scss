@@ -1,0 +1,71 @@
+@import "reset";
+@import "config";
+@import "fonts";
+@import "colors";
+
+
+/******************
+HEADER CHROMECAST
+*******************/
+.container-chromecast {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: $bg-white;
+}
+
+.container-chromecast__div {
+    display: flex;
+    padding: 4.688rem 0 0 4.375rem;
+}
+
+.container-chromecast__div--column {
+    display: flex;
+    flex-direction: column;
+    padding: 4.688rem 0 0 4.375rem;
+}
+
+.container-chromecast__div--column h1 {
+    color: $light-grey;
+    font-size: 3.1rem;
+    font-weight: bold;
+    margin: 5rem 0;
+}
+
+.logo-plataformas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-plataformas__div {
+    display: inline;
+}
+
+/******************
+SECTION FILMES
+*******************/
+.container-filmes{
+  display: flex;
+  flex: row;
+  background-color: $bg-grey;
+  padding: 70px 50px 70px 20px;
+}
+.container-filmes__filmes{
+    color: $light-grey;
+    font-size: 3.1rem;
+    font-weight: bold;
+    margin: 5rem 0;
+}
+
+/******************
+SECTION PLUGUE
+*******************/
+.container-plugue{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.container-plugue__plugue--padding{
+  padding-right: 100px;
+}
