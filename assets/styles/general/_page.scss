@@ -75,10 +75,111 @@ SECTION PLUGUE
 .container-plugue{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap-reverse;
   align-items: center;
   padding-left: 50px;
 }
 
 .container-plugue__plugue--padding{
   padding-right: 100px;
+  h1{
+      color: $light-grey;
+      line-height: 1.4;
+      width: 470px;
+  }
+  sup{
+      font-size: 1rem;
+  }
+}
+/******************
+SECTION TRANSMITA
+*******************/
+
+.container-transmita{
+    padding: 80px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $bg-grey;
+}
+
+.container-transmita__text{
+    width: 400px;
+    position: absolute;
+    margin-left: -700px;
+    color: $light-grey;
+    h2{
+        width: 300px;
+        sup{
+            font-size: 1.2rem;
+        }
+    }
+}
+
+
+
+
+
+/******************
+SECTION CONFIGURAÇÃO
+*******************/
+.container-configuracao {
+    background-color: $bg-grey;
+    text-align: center;
+    color: $light-grey;
+    padding: 3.438rem 3.125rem;
+
+    h2 {
+        font-size: 1.875rem;
+        margin-bottom: 2.5rem;
+    }
+
+    p {
+        font-size: 1.375rem;
+        color: $light-grey;
+        margin-bottom: 5rem;
+
+        span {
+            font-weight: bold;
+            display: block;
+            margin-bottom: .575rem;
+        }
+    }
+
+    .types-configuration {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        div {
+            width: 350px;
+
+            p {
+                width: 100%;
+                margin-top: 0.575rem;
+            }
+        }
+    }
+}
+
+
+/******************
+FOOTER
+*******************/
+
+
+footer {
+    img {
+        max-width: 100%;
+    }
+
+    .footer-referencias {
+        padding: 1.875rem 1.25rem;
+
+        p {
+            font-size: .813rem;
+            color: $light-grey;
+            text-align: justify;
+        }
+    }
 }
