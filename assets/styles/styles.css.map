@@ -1,8 +1,12 @@
 {
     "version": 3,
-    "mappings": "AAEA,AAAA,IAAI,CAAA;EACF,gBAAgB,EAAE,GAAG;CACtB",
+    "mappings": "AEAA;;oBAEoB;AAKpB;;oBAEoB;AAGpB,AAAA,MAAM,EAAE,OAAO,EAAE,MAAM,CAAC;EACpB,QAAQ,EAAE,QAAQ;EAClB,SAAS,EAXE,MAAM;EAYjB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACf;;ACjBD,UAAU;EACN,WAAW,EAAE,aAAa;EAC1B,GAAG,EAAE,qCAAqC,CAAC,eAAe,EACtD,oCAAoC,CAAC,cAAc;EACvD,WAAW,EAAE,IAAI;EACjB,UAAU,EAAE,MAAM;EAClB,YAAY,EAAE,IAAI;;;AAGtB,UAAU;EACN,WAAW,EAAE,aAAa;EAC1B,GAAG,EAAE,wCAAwC,CAAC,eAAe,EACzD,uCAAuC,CAAC,cAAc;EAC1D,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM;EAClB,YAAY,EAAE,IAAI;;;AAGtB,UAAU;EACN,WAAW,EAAE,aAAa;EAC1B,GAAG,EAAE,uCAAuC,CAAC,eAAe,EACxD,sCAAsC,CAAC,cAAc;EACzD,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,MAAM;EAClB,YAAY,EAAE,IAAI;;;ACxBtB;;oBAEoB;AHGpB,AAAA,EAAE,CAAC;EACC,KAAK,EGFI,OAAO;CHGnB",
     "sources": [
-        "styles.scss"
+        "styles.scss",
+        "general/_page.scss",
+        "general/_config.scss",
+        "general/_fonts.scss",
+        "general/_colors.scss"
     ],
     "names": [],
     "file": "styles.css"

@@ -10,3 +10,9 @@ Fontes
 *******************/
 $fonte: 'Google Sans', sans-serif;
 
+header, section, footer {
+    position: relative;
+    max-width: $largura-site;
+    width: 100%;
+    margin: auto;
+}
