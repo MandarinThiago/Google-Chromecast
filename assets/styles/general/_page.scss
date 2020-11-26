@@ -3,41 +3,47 @@
 @import "fonts";
 @import "colors";
 
-
 /******************
 HEADER CHROMECAST
 *******************/
 .container-chromecast {
     display: flex;
-    flex-wrap: wrap-reverse;
+    // flex-wrap: wrap-reverse;
     background-color: $bg-white;
 }
 
 .container-chromecast__div {
-    display: flex;
-    padding: 4.688rem 0 0 4.375rem;
+    margin-right: 40px;
+    // padding: 4.688rem 0 0 4.375rem;
 }
 
 .container-chromecast__div--column {
     display: flex;
     flex-direction: column;
-    padding: 4.688rem 0 0 4.375rem;
-}
+    padding: 4.688rem 0 4.688rem 4.375rem;
 
-.container-chromecast__div--column h1 {
-    color: $light-grey;
-    font-size: 3.1rem;
-    font-weight: bold;
-    margin: 5rem 0;
+    h1 {
+        color: $light-grey;
+        font-size: 3.1rem;
+        font-weight: bold;
+        margin: 5rem 0;
+    }
 }
 
 .logo-plataformas {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo-plataformas__div {
     display: inline;
+    margin-right: 30px;
+}
+
+.logo-plataformas__div:last-child {
+    display: inline;
+    margin-right: 0;
 }
 
 /******************
@@ -49,12 +55,19 @@ SECTION FILMES
   background-color: $bg-grey;
   padding: 70px 50px 70px 20px;
 }
-.container-filmes__filmes{
+.container-filmes__filmes--padding{
     color: $light-grey;
-    font-size: 3.1rem;
+    font-size: 1.5rem;
     font-weight: bold;
-    margin: 5rem 0;
-}
+    padding: 30px 50px 20px 50px;
+    p{
+        font-weight: normal;
+        font-family: "Google Sans", sans-serif;
+        margin-top: 30px;
+    }
+}   
+
+
 
 /******************
 SECTION PLUGUE
